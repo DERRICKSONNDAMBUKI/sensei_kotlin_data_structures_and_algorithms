@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d50a98f-8cfc-4b9a-a60e-528de6076ed2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlin_ds_algos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Complexity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GenericsBox.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Node.kt" afterDir="false" />
+    <list default="true" id="7d50a98f-8cfc-4b9a-a60e-528de6076ed2" name="Changes" comment="Complexity and LinkedList">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LinkedList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Node.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.NodeKt">
+  <component name="RunManager" selected="Kotlin.LinkedListKt">
     <configuration name="ComplexityKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ComplexityKt" />
       <module name="kotlin_ds_algos" />
@@ -64,6 +54,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListKt" />
+      <module name="kotlin_ds_algos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="kotlin_ds_algos" />
@@ -71,16 +68,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NodeKt" />
-      <module name="kotlin_ds_algos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.NodeKt" />
+        <item itemvalue="Kotlin.LinkedListKt" />
         <item itemvalue="Kotlin.ComplexityKt" />
         <item itemvalue="Kotlin.GenericsBoxKt" />
         <item itemvalue="Kotlin.MainKt" />
@@ -96,6 +86,14 @@
       <option name="presentableId" value="Default" />
       <updated>1684912349564</updated>
     </task>
+    <task id="LOCAL-00001" summary="Complexity and LinkedList">
+      <created>1685021741430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685021741430</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complexity and LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complexity and LinkedList" />
   </component>
 </project>
