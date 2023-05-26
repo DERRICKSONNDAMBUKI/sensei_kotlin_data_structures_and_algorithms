@@ -10,12 +10,44 @@ data class Node<T>(var value: T, var next: Node<T>? = null) {
     }
 }
 
-class LinkedList<T> : Iterable<T> {
+class LinkedList<T> : Iterable<T>, Collection<T>, MutableIterable<T>, MutableCollection<T> {
     private var head: Node<T>? = null
     private var tail: Node<T>? = null
-    var size = 0
 
-    private fun isEmpty(): Boolean {
+    override var size = 0
+    override fun clear() {
+        head = null
+        tail = null
+        size = 0
+    }
+
+    override fun addAll(elements: Collection<T>): Boolean {
+        for (element in elements) {
+            append(element)
+        }
+        return true
+    }
+
+    override fun add(element: T): Boolean {
+        append(element)
+        return true
+    }
+
+    override fun containsAll(elements: Collection<T>): Boolean {
+        for (searched in elements) {
+            if (!contains(searched)) return false
+        }
+        return true
+    }
+
+    override fun contains(element: T): Boolean {
+        for (item in this) {
+            if (item == element) return true
+        }
+        return false
+    }
+
+    override fun isEmpty(): Boolean {
         return size == 0
     }
 
@@ -104,22 +136,67 @@ class LinkedList<T> : Iterable<T> {
         return result
     }
 
-    override fun iterator(): Iterator<T> {
+    override fun iterator(): MutableIterator<T> {
         return LinkedListIterator(this)
+    }
+
+    override fun retainAll(elements: Collection<T>): Boolean {
+        var result = false
+        val iterator = this.iterator()
+        while (iterator.hasNext()) {
+            val item = iterator.next()
+            if (!elements.contains(item)) {
+                iterator.remove()
+                result = true
+            }
+        }
+        return result
+    }
+
+    override fun removeAll(elements: Collection<T>): Boolean {
+        var result = false
+        for (item in elements) {
+            result = remove(item) || result
+        }
+        return result
+    }
+
+    override fun remove(element: T): Boolean {
+        val iterator = iterator()
+        while (iterator.hasNext()) {
+            val item = iterator.next()
+            if (item == element) {
+                iterator.remove()
+                return true
+            }
+        }
+        return false
     }
 }
 
-class LinkedListIterator<T>(private val list: LinkedList<T>) : Iterator<T> {
+class LinkedListIterator<T>(private val list: LinkedList<T>) : Iterator<T>, MutableIterator<T> {
     private var index = 0
     override fun hasNext(): Boolean {
         return index < list.size
     }
-    private var lastNode:Node<T>?=null
+
+    override fun remove() {
+        if (index == 1) {
+            list.pop()
+        } else {
+            val prevNode = list.nodeAt(index - 2) ?: return
+            list.removeAfter(prevNode)
+            lastNode = prevNode
+        }
+        index--
+    }
+
+    private var lastNode: Node<T>? = null
     override fun next(): T {
         if (index >= list.size) throw IndexOutOfBoundsException()
-        lastNode = if (index == 0){
+        lastNode = if (index == 0) {
             list.nodeAt(0)
-        }else{
+        } else {
             lastNode?.next
         }
         index++
@@ -190,4 +267,29 @@ fun main() {
     "after removing at index $index: $list".also { println(it) }
     "removed value: $removedNode".also { println(it) }
 
+    "\n# printing doubles".also { println(it) }
+    println(list)
+    for (item in list) println("Double: ${item * 2}")
+
+    "\n# removing elements".also { println(it) }
+    list.also {
+        println(it)
+        it.remove(1)
+        println(it)
+    }
+
+    "\n# retaining elements".also { println(it) }
+    list.also {
+        println(it)
+        it.retainAll(listOf(3, 4, 5))
+        println(it)
+    }
+
+    "\n# remove all elements".also { println(it) }
+    list.also {
+        println(it)
+        it.removeAll(listOf(2, 4, 5))
+        println(it)
+    }
+//    stopped at reverse a linked list and merging linked lists
 }
