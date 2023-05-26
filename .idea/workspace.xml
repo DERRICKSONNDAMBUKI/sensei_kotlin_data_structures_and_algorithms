@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d50a98f-8cfc-4b9a-a60e-528de6076ed2" name="Changes" comment="Complexity and LinkedList">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="7d50a98f-8cfc-4b9a-a60e-528de6076ed2" name="Changes" comment="stack data structures">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Queue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Stack.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/LinkedList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -39,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.LinkedListKt">
+  <component name="RunManager" selected="Kotlin.QueueKt">
     <configuration name="ComplexityKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ComplexityKt" />
       <module name="kotlin_ds_algos" />
@@ -68,8 +69,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueKt" />
+      <module name="kotlin_ds_algos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.QueueKt" />
         <item itemvalue="Kotlin.LinkedListKt" />
         <item itemvalue="Kotlin.ComplexityKt" />
         <item itemvalue="Kotlin.GenericsBoxKt" />
@@ -107,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685088048062</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Complexity and LinkedList">
+      <created>1685090492737</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685090492737</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Complexity and LinkedList">
+      <created>1685090541622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685090541622</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
