@@ -24,6 +24,7 @@ class ArrayListQueue<T> : Queue<T> {
 
     override fun peek(): T? = list.getOrNull(0)
 
+
     override fun toString(): String =
         list.toString()
 
