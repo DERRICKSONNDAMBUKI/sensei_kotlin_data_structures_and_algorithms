@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d50a98f-8cfc-4b9a-a60e-528de6076ed2" name="Changes" comment="stack data structures">
+    <list default="true" id="7d50a98f-8cfc-4b9a-a60e-528de6076ed2" name="Changes" comment="tree">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BinaryNode.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/TreeNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/TreeNode.kt" afterDir="false" />
     </list>
@@ -39,16 +40,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.TreeNodeKt">
-    <configuration name="ComplexityKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComplexityKt" />
+  <component name="RunManager" selected="Kotlin.BinaryNodeKt">
+    <configuration name="BinaryNodeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryNodeKt" />
       <module name="kotlin_ds_algos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsBoxKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericsBoxKt" />
+    <configuration name="ComplexityKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComplexityKt" />
       <module name="kotlin_ds_algos" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BinaryNodeKt" />
         <item itemvalue="Kotlin.TreeNodeKt" />
         <item itemvalue="Kotlin.QueueKt" />
         <item itemvalue="Kotlin.LinkedListKt" />
         <item itemvalue="Kotlin.ComplexityKt" />
-        <item itemvalue="Kotlin.GenericsBoxKt" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685887796016</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tree">
+      <created>1685890519683</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685890519683</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +174,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Complexity and LinkedList" />
     <MESSAGE value="stack data structures" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack data structures" />
+    <MESSAGE value="tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="tree" />
   </component>
 </project>
