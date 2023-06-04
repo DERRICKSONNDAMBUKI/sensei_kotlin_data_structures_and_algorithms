@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d50a98f-8cfc-4b9a-a60e-528de6076ed2" name="Changes" comment="stack data structures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Queue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Queue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/TreeNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/TreeNode.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -39,7 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.QueueKt">
+  <component name="RunManager" selected="Kotlin.TreeNodeKt">
     <configuration name="ComplexityKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ComplexityKt" />
       <module name="kotlin_ds_algos" />
@@ -61,13 +61,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <module name="kotlin_ds_algos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QueueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QueueKt" />
       <module name="kotlin_ds_algos" />
@@ -75,13 +68,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeNodeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeNodeKt" />
+      <module name="kotlin_ds_algos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TreeNodeKt" />
         <item itemvalue="Kotlin.QueueKt" />
         <item itemvalue="Kotlin.LinkedListKt" />
         <item itemvalue="Kotlin.ComplexityKt" />
         <item itemvalue="Kotlin.GenericsBoxKt" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685103565083</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="stack data structures">
+      <created>1685887796016</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685887796016</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
