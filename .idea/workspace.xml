@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d50a98f-8cfc-4b9a-a60e-528de6076ed2" name="Changes" comment="binary tree">
+    <list default="true" id="7d50a98f-8cfc-4b9a-a60e-528de6076ed2" name="Changes" comment="binary search tree - BST">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Trie.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BinaryNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/BinaryNode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Stack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Stack.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +40,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.BinaryNodeKt">
+  <component name="RunManager" selected="Kotlin.TrieKt">
     <configuration name="BinaryNodeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryNodeKt" />
-      <module name="kotlin_ds_algos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComplexityKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComplexityKt" />
       <module name="kotlin_ds_algos" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,13 +69,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrieKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrieKt" />
+      <module name="kotlin_ds_algos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TrieKt" />
         <item itemvalue="Kotlin.BinaryNodeKt" />
         <item itemvalue="Kotlin.TreeNodeKt" />
         <item itemvalue="Kotlin.QueueKt" />
         <item itemvalue="Kotlin.LinkedListKt" />
-        <item itemvalue="Kotlin.ComplexityKt" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685958542192</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="binary tree search">
+      <created>1685961226265</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685961226265</updated>
+    </task>
+    <task id="LOCAL-00012" summary="binary search tree - BST">
+      <created>1685961764947</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685961764947</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +204,8 @@
     <MESSAGE value="stack data structures" />
     <MESSAGE value="tree" />
     <MESSAGE value="binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary tree" />
+    <MESSAGE value="binary tree search" />
+    <MESSAGE value="binary search tree - BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary search tree - BST" />
   </component>
 </project>
