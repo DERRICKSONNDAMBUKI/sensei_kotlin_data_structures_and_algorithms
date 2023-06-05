@@ -130,6 +130,10 @@ class BinarySearchTree<T : Comparable<T>> {
         return node
     }
 
+    // TODO: Is it a BST
+    // TODO: equality between BSTs
+    // TODO: BSTs with same elements
+
 }
 
 fun main() {
