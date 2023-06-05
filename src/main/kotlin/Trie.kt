@@ -33,6 +33,24 @@ class Trie<Key> {
         return current.isTerminating
     }
     // TODO: remove
+
+    fun collections(prefix: List<Key>): List<List<Key>> {
+        var current = root
+        prefix.forEach { element ->
+            val child = current.children[element] ?: return emptyList()
+            current = child
+        }
+        return collections(prefix, current)
+    }
+
+    private fun collections(prefix: List<Key>, node: TrieNode<Key>?): List<List<Key>> {
+        val results = mutableListOf<List<Key>>()
+        if (node?.isTerminating == true) results.add(prefix)
+        node?.children?.forEach { key, node ->
+            results.addAll(collections(prefix + key, node))
+        }
+        return results
+    }
 }
 
 fun main() {
@@ -45,6 +63,27 @@ fun main() {
         if (trie.contains("cute")) {
             println("cute is the trie")
         }
+
+        "\n# prefix matching".also {
+            println(it)
+            val trie = Trie<Char>().apply {
+                insert("car")
+                insert("card")
+                insert("care")
+                insert("cared")
+                insert("cars")
+                insert("carbs")
+                insert("carapace")
+                insert("cargo")
+            }
+            println("\n collections starting with \"car\"")
+            val prefixWithCar = trie.collections("car")
+            println(prefixWithCar)
+
+            println("\n collections starting with \"care\"")
+            val prefixWithCare = trie.collections("care")
+            println(prefixWithCare)
+        }
     }
 }
 
@@ -56,3 +95,6 @@ fun Trie<Char>.insert(string: String) {
 fun Trie<Char>.contains(string: String): Boolean {
     return contains(string.toList())
 }
+
+fun Trie<Char>.collections(prefix: String): List<String> =
+    collections(prefix.toList()).map { it.joinToString(separator = "") }

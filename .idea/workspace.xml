@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d50a98f-8cfc-4b9a-a60e-528de6076ed2" name="Changes" comment="binary search tree - BST">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Trie.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Stack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Stack.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Trie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Trie.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685961764947</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="binary search tree - BST">
+      <created>1685963088680</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685963088680</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
